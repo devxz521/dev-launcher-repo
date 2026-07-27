@@ -25,13 +25,26 @@
       },
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.16.10+1.21.8",
+          "id": "net.fabricmc:fabric-loader:0.19.3",
           "name": "Fabric Loader",
           "type": "Fabric",
           "artifact": {
-            "size": 2859,
-            "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.16.10/profile/json"
-          }
+            "size": 0,
+            "MD5": "",
+            "url": "https://devxz521.github.io/dev-launcher-repo/libraries/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.8-fabric-0.19.3",
+              "name": "Fabric Version",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 0,
+                "MD5": "",
+                "url": "https://devxz521.github.io/dev-launcher-repo/versions/1.21.8-fabric-0.19.3/1.21.8-fabric-0.19.3.json"
+              }
+            }
+          ]
         },
         {
           "id": "com.devstock:devstockmod:1.0.0",
