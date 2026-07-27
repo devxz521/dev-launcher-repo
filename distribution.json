@@ -1,51 +1,51 @@
 {
-    "version": "1.0.0",
-    "rss": "",
-    "discord": {
-      "clientId": "",
-      "smallImageText": "",
-      "smallImageKey": ""
-    },
-    "servers": [
-      {
-        "id": "dev_stock_server",
-        "name": "DevStock Test Server",
-        "description": "DevStockMod 테스트 서버",
-        "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher-Distribution/master/server_icon.png",
-        "version": "1.0.0",
-        "address": "127.0.0.1:25565",
-        "minecraftVersion": "1.20.1",
-        "mainServer": true,
-        "autoconnect": false,
-        "javaOptions": {
-          "ram": {
-            "min": 2048,
-            "max": 4096
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "000000000000000000",
+    "smallImageText": "DevStock",
+    "smallImageKey": "seal"
+  },
+  "servers": [
+    {
+      "id": "dev_stock_server",
+      "name": "DevStock Test Server",
+      "description": "DevStockMod 테스트 서버",
+      "icon": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher-Distribution/master/server_icon.png",
+      "version": "1.0.0",
+      "address": "127.0.0.1:25565",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "javaOptions": {
+        "ram": {
+          "min": 2048,
+          "max": 4096
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc.fabric-loader",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "artifact": {
+            "size": 0,
+            "MD5": "00000000000000000000000000000000",
+            "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.15.7/profile/json"
           }
         },
-        "modules": [
-          {
-            "id": "net.fabricmc.fabric-loader",
-            "name": "Fabric Loader",
-            "type": "Fabric",
-            "artifact": {
-              "size": 0,
-              "MD5": "",
-              "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.15.7/profile/json"
-            }
+        {
+          "id": "devstockmod",
+          "name": "DevStockMod",
+          "type": "File",
+          "artifact": {
+            "size": 1000,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://devxz521.github.io/dev-launcher-repo/mods/DevStockMod.jar"
           },
-          {
-            "id": "devstockmod",
-            "name": "DevStockMod",
-            "type": "File",
-            "artifact": {
-              "size": 1000,
-              "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-              "url": "https://devxz521.github.io/dev-launcher-repo/mods/DevStockMod.jar"
-            },
-            "subModules": []
-          }
-        ]
-      }
-    ]
-  }
+          "subModules": []
+        }
+      ]
+    }
+  ]
+}
