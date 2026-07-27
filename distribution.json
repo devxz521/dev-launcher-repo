@@ -47,6 +47,56 @@
           ]
         },
         {
+          "id": "org.ow2.asm:asm:9.10.1",
+          "name": "ASM",
+          "type": "Library",
+          "artifact": {
+            "size": 126093,
+            "url": "https://devxz521.github.io/dev-launcher-repo/libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
+            "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm-tree:9.10.1",
+          "name": "ASM Tree",
+          "type": "Library",
+          "artifact": {
+            "size": 51939,
+            "url": "https://devxz521.github.io/dev-launcher-repo/libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
+            "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm-analysis:9.10.1",
+          "name": "ASM Analysis",
+          "type": "Library",
+          "artifact": {
+            "size": 35126,
+            "url": "https://devxz521.github.io/dev-launcher-repo/libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
+            "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm-commons:9.10.1",
+          "name": "ASM Commons",
+          "type": "Library",
+          "artifact": {
+            "size": 73459,
+            "url": "https://devxz521.github.io/dev-launcher-repo/libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
+            "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+          }
+        },
+        {
+          "id": "org.ow2.asm:asm-util:9.10.1",
+          "name": "ASM Util",
+          "type": "Library",
+          "artifact": {
+            "size": 94519,
+            "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
+            "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+          }
+        },
+        {
           "id": "com.devstock:devstockmod:1.0.0",
           "name": "DevStockMod",
           "type": "File",
