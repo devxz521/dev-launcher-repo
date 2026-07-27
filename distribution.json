@@ -30,7 +30,6 @@
           "type": "Fabric",
           "artifact": {
             "size": 2859,
-            "MD5": "45d351ef0b1e4c9247d79b63a9254848",
             "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.16.10/profile/json"
           }
         },
