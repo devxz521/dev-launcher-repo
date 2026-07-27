@@ -29,7 +29,7 @@
           "name": "Fabric Loader",
           "type": "Fabric",
           "artifact": {
-            "size": 0,
+            "size": 1976502,
             "MD5": "",
             "url": "https://devxz521.github.io/dev-launcher-repo/libraries/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
           },
@@ -39,7 +39,7 @@
               "name": "Fabric Version",
               "type": "VersionManifest",
               "artifact": {
-                "size": 0,
+                "size": 1676,
                 "MD5": "",
                 "url": "https://devxz521.github.io/dev-launcher-repo/versions/1.21.8-fabric-0.19.3/1.21.8-fabric-0.19.3.json"
               }
