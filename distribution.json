@@ -25,13 +25,14 @@
       },
       "modules": [
         {
-          "id": "devstockmod",
+          "id": "com.devstock:devstockmod:1.0.0",
           "name": "DevStockMod",
           "type": "File",
           "artifact": {
             "size": 14357,
             "MD5": "B206D8F783DD3C1D1B04FBE8CBD84BCB",
-            "url": "https://devxz521.github.io/dev-launcher-repo/mods/devstockmod-1.0.0.jar"
+            "url": "https://devxz521.github.io/dev-launcher-repo/mods/devstockmod-1.0.0.jar",
+            "path": "mods/devstockmod-1.0.0.jar"
           },
           "subModules": []
         }
