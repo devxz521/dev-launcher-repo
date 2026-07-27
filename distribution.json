@@ -25,23 +25,13 @@
       },
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.15.11+1.21.8",
-          "name": "Fabric Loader",
-          "type": "Fabric",
-          "artifact": {
-            "size": 0,
-            "MD5": "00000000000000000000000000000000",
-            "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.15.11/profile/json"
-          }
-        },
-        {
           "id": "devstockmod",
           "name": "DevStockMod",
           "type": "File",
           "artifact": {
-            "size": 1000,
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "url": "https://devxz521.github.io/dev-launcher-repo/mods/DevStockMod.jar"
+            "size": 14357,
+            "MD5": "B206D8F783DD3C1D1B04FBE8CBD84BCB",
+            "url": "https://devxz521.github.io/dev-launcher-repo/mods/devstockmod-1.0.0.jar"
           },
           "subModules": []
         }
